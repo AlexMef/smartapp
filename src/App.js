@@ -2,9 +2,11 @@ import React from 'react';
 import { NavLink, BrowserRouter } from 'react-router-dom';
 import './App.scss';
 
-import slider_background from "./img/slider_background.png";
-import feature_icon from "./img/leaf.png";
-import case_icon from "./img/case.png";
+
+import ProductFeatures from './jsx/ProductFeatures';
+import ProductFeature from './jsx/ProductFeature';
+import Slider from './jsx/Slider';
+import Posts from './jsx/Posts';
 function App() {
   return (
     <BrowserRouter>
@@ -37,64 +39,10 @@ function App() {
             </div>
           </header>
           <div className="content">
-            <div className="content-slider-wrapper">
-              <div className="content-slider">
-                <img className="content-slider-image" src={slider_background} alt="" />
-                <div className="content-slider-container">
-                  <h1>Smart app landing</h1>
-                  <h2>Smart app landing description</h2>
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Aspernatur quo unde itaque, laudantium maxime distinctio
-                  officiis hic enim optio et temporibus culpa, delectus,
-               ut deserunt incidunt porro doloremque eius veniam?</p>
-                  <button className="content-slider-container-download-button"><a href="https://genshin.gg">Download</a></button>
-                </div>
-              </div>
-            </div>
-
-            <div className="content-feature-wrapper">
-              <div className="content-feature-description">
-                <h1>Smart app amazing paragraph</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Aspernatur quo unde itaque, laudantium maxime distinctio
-                officiis hic enim optio et temporibus culpa, delectus,
-               ut deserunt incidunt porro doloremque eius veniam?</p>
-              </div>
-              <div className="content-feature-block">
-                <div className="content-feature-block-menu">
-                  <nav className="content-feature-block-menu-item">
-                    <img src={feature_icon} alt="" />
-                    <div>Heading title one</div>
-                  </nav>
-                  <nav className="content-feature-block-menu-item">
-                    <img src={feature_icon} alt="" />
-                    <div>Heading title one</div>
-                  </nav>
-                  <nav className="content-feature-block-menu-item">
-                    <img src={feature_icon} alt="" />
-                    <div>Heading title one</div>
-                  </nav>
-                  <nav className="content-feature-block-menu-item">
-                    <img src={feature_icon} alt="" />
-                    <div>Heading title one</div>
-                  </nav>
-                  <nav className="content-feature-block-menu-item">
-                    <img src={feature_icon} alt="" />
-                    <div>Heading title one</div>
-                  </nav>
-                </div>
-                <div className="content-feature-block-view">
-                  <img src={case_icon} alt="" />
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Aspernatur quo unde itaque, laudantium maxime distinctio
-                  officiis hic enim optio et temporibus culpa, delectus,
-                  ut deserunt incidunt porro doloremque eius veniam? Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Aspernatur quo unde itaque, laudantium maxime distinctio
-                  officiis hic enim optio et temporibus culpa, delectus,
-                  ut deserunt incidunt porro doloremque eius veniam?</p>
-                </div>
-              </div>
-            </div>
+            <Slider></Slider>
+            <ProductFeatures></ProductFeatures>
+            <ProductFeature></ProductFeature>
+            <Posts></Posts>
           </div>
         </div>
       </div>
