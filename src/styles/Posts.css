@@ -1,0 +1,47 @@
+.posts {
+  padding-bottom: 60px;
+}
+.posts .posts-add {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.posts .posts-add .posts-add-form {
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dadada;
+  border-radius: 12px;
+  width: 40vw;
+  height: 4vh;
+  overflow: visible;
+  outline: none;
+  margin-right: 20px;
+}
+.posts .posts-add .posts-add-button-block {
+  display: flex;
+  flex-direction: column;
+}
+.posts .posts-add .posts-add-button-block .posts-add-button {
+  padding: 5px 25px;
+  margin-bottom: 12px;
+  border-radius: 24px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dadada;
+  cursor: pointer;
+  outline: none;
+  transition: color 600ms ease-out;
+}
+.posts .posts-add .posts-add-button-block .posts-add-button:hover {
+  color: aqua;
+}
+.posts .posts-add .posts-add-button-block .posts-add-button:active {
+  background-color: #dadada;
+  outline-style: solid;
+  outline-color: #3c3d42;
+}
+
+/*# sourceMappingURL=Posts.css.map */

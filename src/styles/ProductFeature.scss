@@ -1,20 +1,16 @@
 .content-feature {
-    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: flex-end;
     background-color: #f2f9fe;
+    padding: 30px;
     $h1-size: 32px;
     $h2-size: 18px;
     $p-size: 14px;
     $p-size-large: 16px;
     $a-size: 10px;
     $a-size-large: 14px;
-    .content-feature-wrapper {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        align-content: flex-end;
-        max-width: 1920px;
-        min-width: 1200px;
-        padding: 30px;
 
         .content-feature-leftbar {
             display: flex;
@@ -70,4 +66,3 @@
             justify-content: center;
         }
     }
-}

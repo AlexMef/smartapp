@@ -1,0 +1,59 @@
+  .post {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #dadada;
+    border-width: 1px;
+    padding: 30px 15px;
+    .post-content {
+      width: 100%;
+      font-size: 16px;
+      padding-right: 25px;
+    }
+    .post-properties {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-end;
+
+      .post-properties-date-of-posting {
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+        font-weight: bold;
+        padding-right: 10px;
+
+        .post-properties-date {
+
+        }
+
+        .post-properties-time {
+          font-weight: normal;
+          font-size: 12px;
+        }
+      }
+      .post-properties-likes {
+        display: flex;
+        flex-direction: row;
+        .post-properties-likes-button {
+          outline: none;
+          border: none;
+          background-color: transparent;
+          max-width: 40px;
+          max-height: 40px;
+          img {
+            height: 100%;
+            width: 100%;
+          }
+        }
+
+        .post-properties-likes-count {
+
+        }
+
+      }
+    }
+  }

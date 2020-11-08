@@ -39,10 +39,10 @@ function App() {
             </div>
           </header>
           <div className="content">
-            <Slider></Slider>
-            <ProductFeatures></ProductFeatures>
-            <ProductFeature></ProductFeature>
-            <Posts></Posts>
+            <Slider/>
+            <ProductFeatures/>
+            <ProductFeature/>
+            <Posts/>
           </div>
         </div>
       </div>

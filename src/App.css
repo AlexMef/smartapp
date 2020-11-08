@@ -1,0 +1,106 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.App h1,
+.App h2,
+.App h3,
+.App h4,
+.App a,
+.App p {
+  margin: 0;
+  padding: 0;
+}
+.App a {
+  text-decoration: none;
+}
+.App .wrapper {
+  min-width: 1200px;
+}
+@media all and (width: 1240px) {
+  .App .wrapper .wrapper {
+    min-width: 900px;
+  }
+}
+.App .wrapper .header {
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dadada;
+  display: flex;
+  justify-content: center;
+}
+.App .wrapper .header .header-wrapper {
+  min-width: 900px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px 0;
+  justify-content: space-between;
+}
+.App .wrapper .header .header-wrapper .header-leftbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.App .wrapper .header .header-wrapper .header-leftbar .header-leftbar-sitetitle a {
+  text-decoration: none;
+  color: #3c3d42;
+  font-size: 36px;
+  font-weight: bold;
+}
+.App .wrapper .header .header-wrapper .header-leftbar .header-leftbar-menu {
+  display: flex;
+  flex-direction: row;
+  padding: 0 30px;
+}
+.App .wrapper .header .header-wrapper .header-leftbar .header-leftbar-menu .header-leftbar-menu-item {
+  padding: 0 10px;
+  font-size: 10px;
+}
+.App .wrapper .header .header-wrapper .header-leftbar .header-leftbar-menu .header-leftbar-menu-item a {
+  text-decoration: none;
+  color: #3c3d42;
+  font-size: 18px;
+  font-weight: bold;
+}
+.App .wrapper .header .header-wrapper .header-rightbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.App .wrapper .header .header-wrapper .header-rightbar .header-rightbar-email img {
+  margin: 0;
+  padding: 0;
+}
+.App .wrapper .header .header-wrapper .header-rightbar .header-rightbar-email a {
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+.App .wrapper .header .header-wrapper .header-rightbar .header-rightbar-phonenumber {
+  padding-left: 15px;
+}
+.App .wrapper .header .header-wrapper .header-rightbar .header-rightbar-phonenumber img {
+  margin: 0;
+  padding: 0;
+}
+.App .wrapper .header .header-wrapper .header-rightbar .header-rightbar-phonenumber p {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+.App .wrapper .content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/*# sourceMappingURL=App.css.map */
